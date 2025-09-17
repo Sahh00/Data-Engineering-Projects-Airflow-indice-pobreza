@@ -53,13 +53,13 @@ Como próximos passos, planejo integrar o projeto com Trino + DBeaver, permitind
   </tr>
   <tr>
     <td>MinIO</td>
-    <td>Apache Airflow</td>
+    <td>9000</td>
   </tr>
   <tr>
-    <td>9000</td>
+    <td>Apache Airflow</td>
     <td>8080</td>
   </tr>
-</table> 
+</table>
 
 🛠️ Provedores Airflow
 
