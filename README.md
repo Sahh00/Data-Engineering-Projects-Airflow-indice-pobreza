@@ -36,13 +36,13 @@ Como próximos passos, planejo integrar o projeto com Trino + DBeaver, permitind
   </tr>
   <tr>
     <td>MinIO</td>
-    <td>Apache Airflow</td>
+    <td>Camada de Armazenamento: MinIO como lakehouse</td>
   </tr>
   <tr>
-    <td>Camada de Armazenamento: MinIO como lakehouse</td>
+    <td>Apache Airflow</td>
     <td>Processamento: Spark para manipulação de dados</td>
   </tr>
-</table> 
+</table>
 
 🛠 Componentes da Stack
   
