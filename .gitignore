@@ -1,0 +1,33 @@
+# ===== Python =====
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.pkl
+
+# ===== Virtual Env =====
+venv/
+.env/
+*.env
+
+# ===== Airflow =====
+logs/
+airflow.cfg
+unittests.cfg
+webserver_config.py
+
+# ===== Spark / Hadoop =====
+spark-*/logs/
+spark-*.tgz
+spark-*.tar.gz
+hadoop-*/logs/
+
+
+# ===== VSCode / IDE =====
+.vscode/
+.idea/
+*.code-workspace
+
+# ===== SO =====
+.DS_Store
+Thumbs.db
