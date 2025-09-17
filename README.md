@@ -70,4 +70,15 @@ Como próximos passos, planejo integrar o projeto com Trino + DBeaver, permitind
 <img width="1868" height="887" alt="image" src="https://github.com/user-attachments/assets/297bbd73-53ca-4a2e-8fda-a16c36daab45" />
 
 
+Criação container 
+
+Container Docker Minio
+
+docker run -p 9000:9000 -p 9001:9001 \
+--name minio_local \
+-v "$(pwd)/minio_data:/data" \
+-e "MINIO_ROOT_USER=minioadmin" \
+-e "MINIO_ROOT_PASSWORD=minioadmin" \
+minio/minio server --console-address ":9001"
+
   
