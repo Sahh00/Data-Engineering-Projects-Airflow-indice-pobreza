@@ -1,6 +1,6 @@
 ✅ LakeHouse ✅
+<img width="1135" height="592" alt="image" src="https://github.com/user-attachments/assets/5c47598b-579f-4509-8584-389021fa424a" />
 
-[Untitled.pdf](https://github.com/user-attachments/files/22391162/Untitled.pdf)
 
 
 🧠 Introdução
