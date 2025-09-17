@@ -6,8 +6,8 @@
 
 🧠 Introdução 🧠
 
-Nos últimos dias, mergulhei em um desafio prático de Data Engineering: construir um processo completo de ETL local utilizando Airflow, Spark e MinIO (rodando em Docker) como meu Data Lake.
-O projeto trabalha com dados do Índice de Pobreza no Brasil (2012-2022), extraídos diretamente de uma API do Kaggle. Para isso, desenvolvi um operator personalizado no Airflow responsável por realizar a extração e enviar os dados para a camada Bronze do Data Lake.
+Nos últimos dias, mergulhei em um desafio prático de Data Engineering: construir um processo completo de ETL local utilizando Airflow, Spark e MinIO (rodando em Docker) como meu Lakehouse.
+O projeto trabalha com dados do Índice de Pobreza no Brasil (2012-2022), extraídos diretamente de uma API do Kaggle. Para isso, desenvolvi um operator personalizado no Airflow responsável por realizar a extração e enviar os dados para a camada Bronze do Lakehouse.
 Um dos maiores aprendizados foi configurar a conexão do Spark com o MinIO via S3 e trabalhar com Delta Lake, garantindo que os dados fossem armazenados em formato Delta de maneira eficiente. Essa etapa foi desafiadora, mas extremamente enriquecedora.
 
 Na fase de transformação, explorei o PySpark de duas maneiras:
@@ -23,7 +23,7 @@ Após testar os pipelines em notebooks, converti tudo em scripts Python e integr
 
   - Gold: geração de insights finais a partir dos dados
 
-Como próximos passos, planejo integrar o projeto com Trino + DBeaver, permitindo consultas SQL diretamente no Data Lake. Embora vá além do escopo tradicional de Data Engineering, isso traria uma forma prática e poderosa de explorar os dados.
+Como próximos passos, planejo integrar o projeto com Trino + DBeaver, permitindo consultas SQL diretamente no Lakehouse. Embora vá além do escopo tradicional de Data Engineering, isso traria uma forma prática e poderosa de explorar os dados.
   
 
 
