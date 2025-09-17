@@ -6,8 +6,7 @@
 
 🧠 Introdução 🧠
 
-Nos últimos dias, mergulhei em um desafio prático de Data Engineering: construir um processo completo de ETL local utilizando Airflow, Spark e MinIO (rodando em Docker) como meu Lakehouse.
-O projeto trabalha com dados do Índice de Pobreza no Brasil (2012-2022), extraídos diretamente de uma API do Kaggle. Para isso, desenvolvi um operator personalizado no Airflow responsável por realizar a extração e enviar os dados para a camada Bronze do Lakehouse.
+Nos últimos dias, mergulhei em um desafio prático de Data Engineering: construir um Lakehouse local, utilizando Apache Airflow para orquestração, Apache Spark para transformação de dados e MinIO em Docker como camada de armazenamento.
 Um dos maiores aprendizados foi configurar a conexão do Spark com o MinIO via S3 e trabalhar com Delta Lake, garantindo que os dados fossem armazenados em formato Delta de maneira eficiente. Essa etapa foi desafiadora, mas extremamente enriquecedora.
 
 Na fase de transformação, explorei o PySpark de duas maneiras:
