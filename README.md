@@ -32,7 +32,7 @@ Como próximos passos, planejo integrar o projeto com Trino + DBeaver, permitind
 <table>
   <tr>
     <th>Ferramenta</th>
-    <th>Porta</th>
+    <th>Função Principal</th>
   </tr>
   <tr>
     <td>MinIO</td>
@@ -61,11 +61,13 @@ Como próximos passos, planejo integrar o projeto com Trino + DBeaver, permitind
   </tr>
 </table> 
 
-Provedores Airflow
-  <img width="1235" height="340" alt="image" src="https://github.com/user-attachments/assets/ec43a10c-8180-4028-a46c-457d45e42784" />
+🛠️ Provedores Airflow
+
+<img width="1235" height="340" alt="image" src="https://github.com/user-attachments/assets/ec43a10c-8180-4028-a46c-457d45e42784" />
 
 
 💨 Fluxo Airflow
+
 <img width="1868" height="887" alt="image" src="https://github.com/user-attachments/assets/297bbd73-53ca-4a2e-8fda-a16c36daab45" />
 
 
